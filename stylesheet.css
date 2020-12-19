@@ -1,0 +1,192 @@
+.site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    font-family: Helvetica;
+    background-image: linear-gradient(to bottom,#bcdbeb, pink);
+}
+
+.siteHeader{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width: 110%;
+    Height:180px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: large;
+    padding-bottom: 10px;
+   
+    background-image: url('https://archive.org/download/clouds-tiled/clouds-tiled.png');
+    background-repeat: repeat-x;
+    animation: animatedBackground 2s linear infinite;
+
+
+}
+h1{
+    padding: 0 .5em;
+}
+.siteContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 105%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    font-family: Helvetica;
+    
+   
+}
+.post{
+    width: 40vw;
+    min-width: 400px;
+    min-height: 70vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 25px;
+    padding: 0 0 2em;
+
+
+}
+.photoContainer{
+
+    width:100%;
+}
+
+
+.header{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-content: center;
+    padding: .5em;
+    
+    
+}
+
+.headerLeft{display: flex;
+    height: 100%;
+    width: 80%;
+    flex-direction: row;
+    padding: .1em;
+    align-content: center;
+
+}
+
+
+.fa-rocket{
+    font-size: 3.3em;
+    align-content: center;
+    justify-content: center;
+    padding: .3vw;
+     display: flex;
+      flex-direction: column;
+       align-self: center;
+}
+
+.hCenter{
+
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-self: center;
+    padding-left: .5em;
+    padding-top: .1em;
+    font-size: 1.4em;
+    
+}
+.brand{
+    
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: inherit;
+    
+
+
+}
+.username{
+  font-size: inherit;
+  
+}
+
+.menu{
+
+    font-size: 2.3em;
+    margin-left: auto;
+    margin-right: .9em;
+    align-self: center;
+}
+.iconBar{
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.6em;
+    justify-content: space-between;
+    align-self: center;
+    padding: .2em
+    
+}
+
+.leftIcon{
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.button{
+    padding: .1em
+}
+
+
+
+.rightIcon{
+  width:95%;
+    display: flex;
+    flex-direction: row;
+    font-size: 2.6em;
+    justify-content: space-between;
+    align-self: center;
+    padding: .3em
+}
+
+
+.photo {
+    height: auto; 
+    width: 100%; 
+    object-fit: cover;
+}
+
+.text{
+    
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: .8em 1.5em;
+}
+
+.likedBy{
+    padding: 0 0 1em;
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0px 0; }
+  to { background-position: -562px 0; }
+}
